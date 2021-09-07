@@ -1,0 +1,139 @@
+header{
+    background-color: grey;
+    border: black;
+    height: 155px;
+    cursor: default;
+}
+
+.navegacao{
+    position: absolute;
+    right: 415px;
+    top: 110px;
+    font-size:35px;
+    
+}
+
+.navegacao li{
+    display:inline;
+    margin: 0 0 0 25px;
+    cursor: pointer;
+}
+
+.acesso{
+    position: absolute;
+    font-size: 30px;
+    right: 90px;
+    top: 60px;
+}
+
+.acesso li{
+    display:inline;
+    margin: 0 0 0 30px;
+    cursor: pointer;
+}
+
+.acesso li:hover, .navegacao li:hover{
+    color: #C0C0C0;
+    text-decoration: underline;
+}
+
+select{
+    position: absolute;
+    right: 25px;
+    top: 68px;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0 0 0 0;
+    height: 5px;
+    border: 1px solid black;
+    background: #000;
+}
+
+body{background: linear-gradient( #FEFEFE, #888);}
+
+img{
+    width: 200px;
+    height: 125px;
+    margin: 10px 10px 10px 50px;
+}
+
+h1{
+    position: absolute;
+    right: 360px;
+    top: 10px;
+    font-size: 75px;
+}
+
+
+button{
+    position: absolute;
+    right: 0;
+    top: 138px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}		
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 80px 40px 40px 40px;
+}
+
+.conteudo{
+    width: auto;
+    margin: 10px 200px 0 200px;				
+}
+
+.sobre-loja, .sobre{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 25px 0;
+    line-height: 25px;
+}
+
+.sobre{
+    text-align: center;
+}
+
+.logo-conteudo{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.mapa{
+    text-align: center;
+    margin: 20px 0 80px 0;
+}
+
+.conteudo-redes{
+    width: auto;
+    margin: 10px 200px 0 200px;
+    font-size: 20px;
+    
+    text-align: center
+}
+
+.apresentacao{
+    /*width: 560px;*/
+    width: 560px;
+    height: 315px;
+    margin: 0 auto 30px auto;
+    box-shadow: 10px 10px 25px ;
+    
+}
+
+.redes-sociais{
+    width: 50px;
+    height: 50px;
+    margin: 10px 25px;
+    cursor: pointer;
+}
+
+footer{
+    background: url("bg.jpg");
+    padding: 50px 0;
+}
