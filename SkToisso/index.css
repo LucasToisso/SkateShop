@@ -12,42 +12,34 @@ header{
     font-size:35px;
 }
 
-.navegacao li{
+.navegacao li, .acesso li{
     color: black;
     display:inline-block;
     margin: 0 0 0 25px;
     cursor: pointer;
 }
 
-.navegacao a{
+.navegacao a, .acesso a{
     text-decoration: none;
     color: black;
 }
-
 
 .acesso{
     position: absolute;
     margin: 10px;
     font-size: 30px;
     right: 90px;
-    top: 60px;
+    top: 50px;
 }
-
-.acesso li{
-    display:inline;
-    margin: 0 0 0 30px;
-    cursor: pointer;
-}
-
-.acesso li:hover, .navegacao li:hover{
+ 
+.navegacao li:hover, .acesso li:hover{
     color: #C0C0C0;
-    text-decoration: underline;
-}
+    text-decoration: underline;}
 
 select{
     position: absolute;
     right: 25px;
-    top: 68px;
+    top: 65px;
     cursor: pointer;
 }
 
