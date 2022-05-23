@@ -1,75 +1,129 @@
-<!DOCTYPE html>
-<html>
+header{
+    background-color: grey;
+    border: black;
+    height: 155px;
+    cursor: default;
+    
+}
 
-	<head>
-		<meta charset="utf-8">
-		<meta charset="pt-br">
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="index.css">
-		<title>SkToisso Shop</title>
-	</head>
+.logo{
+    position: absolute;
+}
+h1{
+    top: 5px;
+    justify-content: center;
+}
 
-	<body>
-		<header>
+.navegacao{
+    font-size:35px;
+    height: 75px;
+    margin-top: 20px;
+    text-align: center;
+}
 
-			<img class="logo" src="Skate logo.jpg">
-			<h1>Bela Vista SkateShop</h1>
+.navegacao li, .acesso li{
+    color: black;
+    display:inline-block;
+    margin: 0 0 0 25px;
+    cursor: pointer;
+}
 
-			<nav>				
-				<ul class="navegacao">
-					<li><a href="index.html">Início</a></li>	
-					<li><a href="conteudo.html">Conteúdo</a></li>
-					<li><a href="loja.html">Loja</a></li>
-					<li><a href="app.html">Aplicativo</a></li>
-				</ul>	
-			</nav>	
-		</header>
-		<hr>
+.navegacao a, .acesso a{
+    text-decoration: none;
+    color: black;
+}
 
-		<main>
+ 
+.navegacao li:hover, .acesso li:hover{
+    color: #C0C0C0;
+    text-decoration: underline;}
 
-			<h2>Sobre a loja</h2>
 
-			<div class="conteudo">	
 
-				<p class="sobre-loja"><img src="SkateShop.jpg" class="logo-conteudo">A Toisso SkateShop está a mais de 5 anos fortalecendo o skate local com eventos e campeonatos para todas as categorias.</p>
-				<p class="sobre-loja">É uma loja de Skate bem localizada e com todos os acessórios disponíveis, desde um skate mais simples com todos os quesitos necessários para aprender manobras, até o skate profissional de alta qualidade com peças importadas das mais famosas marcas.</p>
-				
-			</div>
+hr{
+    margin: 0 0 0 0;
+    height: 5px;
+    border: 1px solid black;
+    background: #000;
+}
 
-			<h2>Nossa localização</h2>
-			<p class="sobre">Nossa loja fica localizada próximo a pista de Skate do Bela vista</p>
+body{background: linear-gradient( #FEFEFE, #888);}
 
-			<div class="mapa">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.75580588876!2d-46.7871970849063!3d-23.541283784692848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceff0aee606daf%3A0x5aa0d7d68b1526ea!2sPista%20De%20Skate%20do%20Bela%20Vista!5e0!3m2!1spt-BR!2sbr!4v1629926198346!5m2!1spt-BR!2sbr" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-			</div>
+img{
+    width: 200px;
+    height: 125px;
+    margin: 10px 10px 10px 50px;
+}
 
-			<div class="conteudo-redes">
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px;
+    /*position: absolute;
+    right: 360px;
+    top: 10px;
+    */
+}
 
-				<h2>Contatos</h2>
-				
-				<div class="apresentacao">
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 80px 40px 40px 40px;
+}
 
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/9RXijmRRy24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					
-				</div>
+.conteudo{
+    width: auto;
+    margin: 10px 200px 0 200px;				
+}
 
-				<p class="sobre">Abrimos de Segunda a Sexta das 10h às 19h, também atendemos pelas redes sociais</p>
-				<p class="sobre">Para mais informações entre em contato!</p>
+.sobre-loja, .sobre{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 25px 0;
+    line-height: 25px;
+}
 
-				<div class="lista-redes">
-					<a href="https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit" target="_blank"><img src="facebook-logo.png" class="redes-sociais"></a>
-					<a href="https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit" target="_blank"><img src="instagram-logo.png" class="redes-sociais"></a>
-					<a href="https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit" target="_blank"><img src="whatsapp-logo.png" class="redes-sociais"></a>
-				</div>
-			</div>
+.sobre{
+    text-align: center;
+}
 
-		</main>
-		
-		<footer>
-			
-		</footer>
-	</body>
-	<script>
-	</script>
-</html>
+.logo-conteudo{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.mapa{
+    text-align: center;
+    margin: 20px 0 80px 0;
+}
+
+.conteudo-redes{
+    width: auto;
+    margin: 10px 200px 0 200px;
+    font-size: 20px;
+    
+    text-align: center
+}
+
+.apresentacao{
+    /*width: 560px;*/
+    width: 560px;
+    height: 315px;
+    margin: 0 auto 30px auto;
+    box-shadow: 10px 10px 25px ;
+    
+}
+
+.redes-sociais{
+    width: 50px;
+    height: 50px;
+    margin: 10px 25px;
+    cursor: pointer;
+}
+
+footer{
+    background: url("bg.jpg");
+    padding: 50px 0;
+}
+
