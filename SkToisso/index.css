@@ -3,13 +3,22 @@ header{
     border: black;
     height: 155px;
     cursor: default;
+    
+}
+
+.logo{
+    position: absolute;
+}
+h1{
+    top: 5px;
+    justify-content: center;
 }
 
 .navegacao{
-    position: absolute;
-    right: 415px;
-    top: 110px;
     font-size:35px;
+    height: 75px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .navegacao li, .acesso li{
@@ -24,24 +33,12 @@ header{
     color: black;
 }
 
-.acesso{
-    position: absolute;
-    margin: 10px;
-    font-size: 30px;
-    right: 90px;
-    top: 50px;
-}
  
 .navegacao li:hover, .acesso li:hover{
     color: #C0C0C0;
     text-decoration: underline;}
 
-select{
-    position: absolute;
-    right: 25px;
-    top: 65px;
-    cursor: pointer;
-}
+
 
 hr{
     margin: 0 0 0 0;
@@ -67,16 +64,6 @@ h1{
     top: 10px;
     */
 }
-
-
-button{
-    position: absolute;
-    right: 0;
-    top: 138px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    cursor: pointer;
-}		
 
 h2{
     text-align: center;
